@@ -6,4 +6,3 @@ Pillow
 opencv-python
 scikit-image
 scipy
-image-similarity-measures
