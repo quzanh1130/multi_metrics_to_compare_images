@@ -383,7 +383,7 @@ def sre(org_img: np.ndarray, pred_img: np.ndarray):
     else:
         return result
 
-def export(org_img_path: str, pred_img_path: str):
+def diff_export(org_img_path: str, pred_img_path: str):
     org_img = cv2.imread(org_img_path)
     pred_img = cv2.imread(pred_img_path)
 
@@ -462,7 +462,7 @@ def evaluation(org_img_path: str, pred_img_path: str, metrics: List[str]):
     output_dict = {}
     org_img = read_image(org_img_path)
     pred_img = read_image(pred_img_path)
-    export(org_img_path, pred_img_path)
+    diff_export(org_img_path, pred_img_path)
 
     for metric in metrics:
         metric_func = metric_functions[metric]
@@ -470,9 +470,6 @@ def evaluation(org_img_path: str, pred_img_path: str, metrics: List[str]):
         logger.info(f"{metric.upper()} value is: {out_value}")
         output_dict[metric] = out_value
     return output_dict
-
-
-
 
 def main():
     logging.basicConfig(
@@ -514,8 +511,6 @@ def main():
     if "all" in args.metrics:
         args.metrics = all_metrics
 
-
-
     metric_values = evaluation(
         org_img_path=args.org_img_path,
         pred_img_path=args.pred_img_path,
@@ -530,10 +525,5 @@ def main():
 
     print(json.dumps(result_dict, sort_keys=True))
 
-
-
 if __name__ == "__main__":
     main()
-
-#  example to run in terminal
-# python main.py --ord_img_path Images/1.png --pred_img_path Image/2.png --metric all
