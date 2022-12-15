@@ -1,7 +1,7 @@
 # compare-image
  Implementation of nine evaluation metrics to access the similarity between two images and obtain the regions of the two input images that differ. The nine metrics are as follows:
  * <i>Root mean square error (RMSE)</i>,
- * <iPeak signal-to-noise ratio (PSNR)</i>,
+ * <i>Peak signal-to-noise ratio (PSNR)</i>,
  * <i>Structural Similarity Index (SSIM)</i>,
  * <i>Feature-based similarity index (FSIM)</i>,
  * <i>Information theoretic-based Statistic Similarity Measure (ISSM)</i>,
@@ -37,7 +37,7 @@ pip install -r requirements.txt
  
  #### Terminal
 ```bash
-python main.py --org_img_path FILE --pred_img_path FILE --metric METRIC
+python main.py --org_img_path FILE_PATH --pred_img_path FILE_PATH --metric METRIC
 ```
 #### Example
  
@@ -60,3 +60,4 @@ Z. Wang, E. P. Simoncelli, and A. C. Bovik, “Multiscale structural similarity 
 Mittal, Anish, Rajiv Soundararajan, and Alan C. Bovik. "Making a completely blind image quality analyzer." Signal Processing Letters, IEEE 20.3 (2013): 209-212.
 
 <a href="https://github.com/aizvorski/video-quality">Video Quality Metrics - aizvorski</a>
+<a href="https://github.com/up42/image-similarity-measures">image-similarity-measures - up42</a>
