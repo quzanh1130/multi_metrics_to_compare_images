@@ -24,7 +24,7 @@ pip install image-similarity-measures
 ```
 
 ```bash
-pip install -r /path/to/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Usage
