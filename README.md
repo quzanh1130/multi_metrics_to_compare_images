@@ -47,7 +47,7 @@ python main.py --org_img_path FILE --pred_img_path FILE --metric METRIC
 python main.py --org_img_path Images/1.png --pred_img_path Images/2.png --metric all
 ```
 
-##References
+## References
 
 <strong>Müller, M. U., Ekhtiari, N., Almeida, R. M., and Rieke, C.: SUPER-RESOLUTION OF MULTISPECTRAL
 SATELLITE IMAGES USING CONVOLUTIONAL NEURAL NETWORKS, ISPRS Ann. Photogramm. Remote Sens.
