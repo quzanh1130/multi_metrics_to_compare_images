@@ -59,5 +59,6 @@ Z. Wang, E. P. Simoncelli, and A. C. Bovik, “Multiscale structural similarity 
 
 Mittal, Anish, Rajiv Soundararajan, and Alan C. Bovik. "Making a completely blind image quality analyzer." Signal Processing Letters, IEEE 20.3 (2013): 209-212.
 
-<a href="https://github.com/aizvorski/video-quality">Video Quality Metrics - aizvorski</a>
-<a href="https://github.com/up42/image-similarity-measures">image-similarity-measures - up42</a>
+<i><a href="https://github.com/aizvorski/video-quality">Video Quality Metrics - aizvorski</a></i>
+
+<i><a href="https://github.com/up42/image-similarity-measures">image-similarity-measures - up42</a></i>
