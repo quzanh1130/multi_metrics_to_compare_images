@@ -37,7 +37,7 @@ pip install -r requirements.txt
                         sam, sre, ssim, uiq, vifp, all) (can be repeated)
 ```
  
- #### In ternimal
+ #### Terminal
 ```bash
 python main.py --org_img_path FILE --pred_img_path FILE --metric METRIC
 ```
