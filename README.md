@@ -1,5 +1,6 @@
 # compare-image
-
+ Base on image-similarity-measures
+ Implementation of nine evaluation metrics to access the similarity between two images and obtain the regions of the two input images that differ. The nine metrics are as follows:
  * <i>Root mean square error (RMSE)</i>,
  * <iPeak signal-to-noise ratio (PSNR)</i>,
  * <i>Structural Similarity Index (SSIM)</i>,
@@ -11,15 +12,13 @@
  * <i>Visual Information Fidelity (VIFP)</i>,
  
  ## Instructions
- Implementation of nine evaluation metrics to access the similarity between two images and obtain the regions of the two input images that differ. The nine metrics are as follows:
- 
  The following step-by-step instructions will guide you through installing this package and run evaluation using the command line tool.
 
  **Note:** Supported python versions are 3.6, 3.7, 3.8, and 3.9.
  
- ### Install package
+ ### Install package library
  
- ```bash
+```bash
 pip install image-similarity-measures
 ```
 
@@ -31,8 +30,8 @@ pip install -r requirements.txt
 
 #### Parameters
 ```
-  --org_img_path FILE   Path to original input image
-  --pred_img_path FILE  Path to predicted image
+  --org_img_path FILE_PATH   Path to original input image
+  --pred_img_path FILE_PATH  Path to predicted image
   --metric METRIC       select an evaluation metric (fsim, issm, psnr, rmse,
                         sam, sre, ssim, uiq, vifp, all) (can be repeated)
 ```
