@@ -1,4 +1,4 @@
-# compare-image
+# compare-images
  Implementation of nine evaluation metrics to access the similarity between two images and obtain the regions of the two input images that differ. The nine metrics are as follows:
  * <i>Root mean square error (RMSE)</i>,
  * <i>Peak signal-to-noise ratio (PSNR)</i>,
